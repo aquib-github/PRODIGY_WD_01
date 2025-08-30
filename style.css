@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -50,27 +48,20 @@ body {
     color: #00ffe0;
 }
 
-/* Navbar scroll effect - subtle but noticeable */
 .navbar.scrolled {
     background: linear-gradient(90deg, #141414, #1f1f1f);
-    /* dark gradient */
     box-shadow: 0 0 12px rgba(0, 255, 224, 0.3);
-    /* softer glow */
     transition: all 0.4s ease-in-out;
 }
 
 .navbar.scrolled .nav-links a {
     color: #00ffe0;
-    /* highlight links with cyan */
 }
 
 .navbar.scrolled .nav-links a:hover {
     color: #ff007f;
-    /* hover turns pink */
 }
 
-
-/* Hero Section */
 .hero {
     width: 100%;
     height: 100vh;
@@ -114,7 +105,6 @@ body {
     box-shadow: 0 0 20px #00ffe0;
 }
 
-/* Games Section */
 .games {
     padding: 4rem 2rem;
     text-align: center;
@@ -150,7 +140,6 @@ body {
     box-shadow: 0 0 20px #ff007f;
 }
 
-/* Location Section */
 .location {
     padding: 4rem 2rem;
     text-align: center;
@@ -187,7 +176,6 @@ body {
     border: 0;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 1.5rem;
@@ -200,7 +188,6 @@ footer .socials a {
     text-decoration: none;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero-overlay h1 {
         font-size: 2rem;
