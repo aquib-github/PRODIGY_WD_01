@@ -22,3 +22,5 @@ Designed with a neon-themed UI, it’s perfect for highlighting tournaments, eve
 - **JavaScript (Vanilla)** – Hero slideshow & navbar scroll effect  
 - **Google Fonts (Orbitron)** – Gaming-inspired typography  
 - **Google Maps Embed** – Arena location integration  
+
+---
